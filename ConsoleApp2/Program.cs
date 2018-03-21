@@ -9,7 +9,8 @@ namespace ConsoleApp2
 	class Program
 	{
 		static void Main(string[] args)
-		{
+		{ 
+			// kk eaw man
 			Console.WriteLine("Entre com o codigo: ");
 			Console.WriteLine("Codigo 1 - Tirar 10% de um valor: ");
 			Console.WriteLine("Codigo 2 - Tirar x% de um valor: ");
