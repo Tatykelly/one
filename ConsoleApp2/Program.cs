@@ -72,8 +72,8 @@ namespace ConsoleApp2
 
 				double raiz = (Math.Pow(b,2) - (4 * a * c));
 
-				double valor1 = (-4 + Math.Sqrt(raiz)) / (2 * a);
-				double valor2 = (-4 - Math.Sqrt(raiz)) / (2 * a);
+				double valor1 = (-b + Math.Sqrt(raiz)) / (2 * a);
+				double valor2 = (-b - Math.Sqrt(raiz)) / (2 * a);
 
 				Console.WriteLine("O valor de x1: " + valor1);
 				Console.WriteLine("O valor de x2: " + valor2);
