@@ -61,6 +61,23 @@ namespace ConsoleApp2
 			}
 			else
 			{
+				Console.WriteLine("Entre com o valor de a: ");
+				double a = Convert.ToDouble(Console.ReadLine());
+
+				Console.WriteLine("Entre com o valor de b: ");
+				double b = Convert.ToDouble(Console.ReadLine());
+
+				Console.WriteLine("Entre com o valor de c: ");
+				double c = Convert.ToDouble(Console.ReadLine());
+
+				double raiz = (Math.Pow(b,2) - (4 * a * c));
+
+				double valor1 = (-4 + Math.Sqrt(raiz)) / (2 * a);
+				double valor2 = (-4 - Math.Sqrt(raiz)) / (2 * a);
+
+				Console.WriteLine("O valor de x1: " + valor1);
+				Console.WriteLine("O valor de x2: " + valor2);
+				Console.ReadKey();
 
 
 			}
